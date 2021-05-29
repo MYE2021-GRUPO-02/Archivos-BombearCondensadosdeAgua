@@ -1,1 +1,92 @@
 
+Detalles técnicos de los componentes utilizados.
+
+1.	Relay de 8 entradas.
+Un relé es un interruptor digital para controlar tensiones y corrientes mucho más altas que las placas normales de Arduino.
+Un relé normalmente consiste en una bobina, un terminal común, un terminal normalmente cerrado y un terminal normalmente abierto. Cuando la bobina esta energizada, el terminal común y el terminal normalmente abierto tendrán continuidad.
+El Módulo Relé de 8 canales permite conmutar cargas de potencia de hasta 10A y 250VAC (30VDC).
+Las entradas de control se encuentran aisladas con optoacopladores para minimizar el ruido percibido por el circuito de control mientras se realiza la conmutación de la carga.
+Este módulo es ideal para conmutar cargas de corriente alterna conectadas a la red eléctrica.
+
+Características:
+•	Optoacoplado, totalmente aislado.
+•	Soporte de control de 10A 30V DC y 10A 250V AC.
+•	Tarjeta de interfaz de rele de 5 V 8-Channel.
+•	Disparador de nivel BAJO, equipado con indicador facil de reconocer el estado de trabajo.
+•	Cada rele tiene puertos NO y NC, es mas facil de conectar y controlar los dispositivos conectados.
+•	Seleccion de material plastico para alta temperatura y mejor rendimiento de la solucion quimica.
+
+2.	Bomba de agua de 12V DC.
+Las bombas de agua son máquinas que se emplean para bombear líquidos de un lugar a otro, sin importar el fluido. Se emplean, en su mayoría, para desocupar piscinas, pozos sépticos, regar cultivos y abastecer de agua un lugar, entre otros.
+Actualmente se pueden encontrar múltiples variaciones y diversas marcas de bombas de agua con distintos usos. 
+
+Características:
+•	Voltaje de operación: 12V DC
+•	Corriente máxima: 350mA
+•	Potencia: 4.8W
+•	Caudal máximo: 240L/H (4L/min)
+•	Eje de salida con sello estático para mejor protección
+•	Bajo ruido: <40dB
+•	motor brushless, imán permanente, 2 fases
+•	Líquidos de trabajo: agua, aceite, gasolina
+•	Temperatura del fluido: 60°C máx.
+•	Preparado para uso continuo
+
+3.	Arduino UNO
+Arduino Uno es una placa electrónica basada en el microcontrolador ATmega328. Cuenta con 14 entradas/salidas digitales, de las cuales 6 se pueden utilizar como salidas PWM (Modulación por ancho de pulsos) y otras 6 son entradas analógicas. Además, incluye un resonador cerámico de 16 MHz, un conector USB, un conector de alimentación, una cabecera ICSP y un botón de reseteado. La placa incluye todo lo necesario para que el microcontrolador haga su trabajo, basta conectarla a un ordenador con un cable USB o a la corriente eléctrica a través de un transformador.
+
+4.	Protoboard
+Es una placa de pruebas en los que se pueden insertar elementos electrónicos y cables con los que se arman circuitos sin la necesidad de soldar ninguno de los componentes. Las Protoboard tienen orificios conectados entre si por medio de pequeñas laminas metálicas. Usualmente, estas placas siguen un arreglo en el que los orificios de una misma fila están conectados entre sí y los orificios en filas diferentes no. 
+Una Protoboard es un instrumento que permite probar el diseño de un circuito sin la necesidad de soldar o desoldar componentes. Las conexiones en una Protoboard se hacen con solo insertar los componentes lo que permite armar y modificar circuitos con mayor velocidad.
+
+Características:
+•	La protoboard sirve para probar el correcto funcionamiento del circuito y depurarle las posibles fallas.
+•	líneas verticales son continuas, horizontales no conducen, es un dispositivo en el cual se pueden montar y probar circuitos electrónicos, para prácticas y pruebas.
+•	La regleta central posee una ranura en el medio que la subdivide en dos partes. 
+•	Las perforaciones están interconectadas de manera vertical.
+•	Las pequeñas regletas sirven para fuente, las perforaciones están interconectadas de manera longitudinal.
+
+
+5.	Manguera de plástico.
+Las mangueras son un artículo especializado necesario en la vida cotidiana. Se utilizan en muchos campos de la actividad para el transporte o la distribución de líquidos y gases a través de distancias cortas. Las mangueras y tubos son ampliamente utilizados en diversas máquinas y sistemas de máquinas. Las mangueras se hacen generalmente de caucho o material plástico que es flexible, elástica y en cierta medida resistentes a la tensión mecánica no destructiva y sobrepresión interna o la presión incluso negativa de los medios de comunicación que se transportan.
+
+Características:
+•	Resistente a los agentes atmosféricos y a diferentes productos químicos.
+•	Elevada resistencia a la abrasión, sin fatiga mecánica.
+•	Alta resistencia a la presión y al vacío.
+•	Atóxica y uso alimentario.
+•	Radio de curvatura 6xDi.
+•	Fabricado según norma UNE-EN-23994/93.
+
+6.	Sensor de nivel de agua.
+El Sensor de nivel es un dispositivo electrónico que mide la altura del material, generalmente líquido, dentro de un tanque u otro recipiente.
+Integral para el control de procesos en muchas industrias, los sensores de nivel se dividen en dos tipos principales. Los sensores de nivel de punto se utilizan para marcar una altura de un líquido en un determinado nivel prestablecido. Generalmente, este tipo de sensor funciona como alarma, indicando un sobre llenado cuando el nivel determinado ha sido adquirido, o al contrario una alarma de nivel bajo. Los sensores de nivel continuos son más sofisticados y pueden realizar el seguimiento del nivel de todo un sistema. Estos miden el nivel del fluido dentro de un rango especificado, en lugar de en un único punto, produciendo una salida analógica que se correlaciona directamente con el nivel en el recipiente. Para crear un sistema de gestión de nivel, la señal de salida está vinculada a un bucle de control de proceso y a un indicador visual.
+ 
+Características:
+•	Voltaje de Operación: 3.3 a 5.5 V
+•	Corriente de Operación: Menor a 20 mA
+7.	Sensor de distancia.
+
+8.	Aumentador de 3.7 a 35V.
+Este es un módulo que permite elevar el voltaje con el que se puede hacer una gran variedad de cosas.
+A diferencia de los tradicionales reguladores lineales como el LM317 o el 7805, esta fuente de alimentación de corriente directa puede proveer hasta 3 amperes a tus circuitos de manera muy eficiente y por lo tanto emitiendo una menor cantidad de calor.
+Este módulo es un regulador elevador de voltaje de alto rendimiento de conmutación (BOOST). El módulo utiliza la segunda generación de la tecnología de conmutación de alta frecuencia XL6009E1 de núcleo en lugar de los chips de primera tecnología de generación de LM2577. El módulo XL6009 tiene un rendimiento superior al módulo LM2577.
+
+Características:
+•	Voltaje de salida ajustable con trimpot
+•	Polaridad marcada en con símbolos + y -
+•	Salida marcada con "OUT"
+•	Entrada marcada con "IN"
+•	Para conectar debe ser soldada en las pistas de cobre estañadas con un orificio para atornillar
+•	Aplicaciones: Industriales, energía y de regulación
+
+9.	Cables de puente
+Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
+
+Características:
+•	Cable plano ó ribbon aislado multicolor
+•	Longitud: 20 cm aprox.
+•	Material conductor: Cobre
+•	Calibre: AWG 28
+•	Espaciamiento estándar de los terminales: 2.54 mm (0.1")
+•	Ponchado con terminales en 3 combinaciones de género: macho-macho, hembra-macho y hembra-hembra.
