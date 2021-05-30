@@ -3,7 +3,8 @@ Detalles técnicos de los componentes utilizados.
 
 1.	Relay de 8 entradas.
 Un relé es un interruptor digital para controlar tensiones y corrientes mucho más altas que las placas normales de Arduino.
-Un relé normalmente consiste en una bobina, un terminal común, un terminal normalmente cerrado y un terminal normalmente abierto. Cuando la bobina esta energizada, el terminal común y el terminal normalmente abierto tendrán continuidad.
+Un relé normalmente consiste en una bobina, un terminal común, un terminal normalmente cerrado y un terminal normalmente abierto. Cuando la bobina esta energizada,
+el terminal común y el terminal normalmente abierto tendrán continuidad.
 El Módulo Relé de 8 canales permite conmutar cargas de potencia de hasta 10A y 250VAC (30VDC).
 Las entradas de control se encuentran aisladas con optoacopladores para minimizar el ruido percibido por el circuito de control mientras se realiza la conmutación de la carga.
 Este módulo es ideal para conmutar cargas de corriente alterna conectadas a la red eléctrica.
@@ -17,7 +18,8 @@ Características:
 •	Seleccion de material plastico para alta temperatura y mejor rendimiento de la solucion quimica.
 
 2.	Bomba de agua de 12V DC.
-Las bombas de agua son máquinas que se emplean para bombear líquidos de un lugar a otro, sin importar el fluido. Se emplean, en su mayoría, para desocupar piscinas, pozos sépticos, regar cultivos y abastecer de agua un lugar, entre otros.
+Las bombas de agua son máquinas que se emplean para bombear líquidos de un lugar a otro, sin importar el fluido. Se emplean, en su mayoría, para desocupar piscinas,
+pozos sépticos, regar cultivos y abastecer de agua un lugar, entre otros.
 Actualmente se pueden encontrar múltiples variaciones y diversas marcas de bombas de agua con distintos usos. 
 
 Características:
@@ -33,11 +35,17 @@ Características:
 •	Preparado para uso continuo
 
 3.	Arduino UNO
-Arduino Uno es una placa electrónica basada en el microcontrolador ATmega328. Cuenta con 14 entradas/salidas digitales, de las cuales 6 se pueden utilizar como salidas PWM (Modulación por ancho de pulsos) y otras 6 son entradas analógicas. Además, incluye un resonador cerámico de 16 MHz, un conector USB, un conector de alimentación, una cabecera ICSP y un botón de reseteado. La placa incluye todo lo necesario para que el microcontrolador haga su trabajo, basta conectarla a un ordenador con un cable USB o a la corriente eléctrica a través de un transformador.
+Arduino Uno es una placa electrónica basada en el microcontrolador ATmega328. Cuenta con 14 entradas/salidas digitales, de las cuales 6 se pueden utilizar como
+salidas PWM (Modulación por ancho de pulsos) y otras 6 son entradas analógicas. Además, incluye un resonador cerámico de 16 MHz, un conector USB, un conector de alimentación, 
+una cabecera ICSP y un botón de reseteado. La placa incluye todo lo necesario para que el microcontrolador haga su trabajo, basta conectarla a un ordenador con un cable USB 
+o a la corriente eléctrica a través de un transformador.
 
 4.	Protoboard
-Es una placa de pruebas en los que se pueden insertar elementos electrónicos y cables con los que se arman circuitos sin la necesidad de soldar ninguno de los componentes. Las Protoboard tienen orificios conectados entre si por medio de pequeñas laminas metálicas. Usualmente, estas placas siguen un arreglo en el que los orificios de una misma fila están conectados entre sí y los orificios en filas diferentes no. 
-Una Protoboard es un instrumento que permite probar el diseño de un circuito sin la necesidad de soldar o desoldar componentes. Las conexiones en una Protoboard se hacen con solo insertar los componentes lo que permite armar y modificar circuitos con mayor velocidad.
+Es una placa de pruebas en los que se pueden insertar elementos electrónicos y cables con los que se arman circuitos sin la necesidad de soldar ninguno de los componentes. 
+Las Protoboard tienen orificios conectados entre si por medio de pequeñas laminas metálicas. Usualmente, estas placas siguen un arreglo en el que los orificios de una misma 
+fila están conectados entre sí y los orificios en filas diferentes no. 
+Una Protoboard es un instrumento que permite probar el diseño de un circuito sin la necesidad de soldar o desoldar componentes. Las conexiones en una Protoboard se hacen 
+con solo insertar los componentes lo que permite armar y modificar circuitos con mayor velocidad.
 
 Características:
 •	La protoboard sirve para probar el correcto funcionamiento del circuito y depurarle las posibles fallas.
@@ -48,7 +56,10 @@ Características:
 
 
 5.	Manguera de plástico.
-Las mangueras son un artículo especializado necesario en la vida cotidiana. Se utilizan en muchos campos de la actividad para el transporte o la distribución de líquidos y gases a través de distancias cortas. Las mangueras y tubos son ampliamente utilizados en diversas máquinas y sistemas de máquinas. Las mangueras se hacen generalmente de caucho o material plástico que es flexible, elástica y en cierta medida resistentes a la tensión mecánica no destructiva y sobrepresión interna o la presión incluso negativa de los medios de comunicación que se transportan.
+Las mangueras son un artículo especializado necesario en la vida cotidiana. Se utilizan en muchos campos de la actividad para el transporte o la distribución de líquidos
+y gases a través de distancias cortas. Las mangueras y tubos son ampliamente utilizados en diversas máquinas y sistemas de máquinas. Las mangueras se hacen generalmente 
+de caucho o material plástico que es flexible, elástica y en cierta medida resistentes a la tensión mecánica no destructiva y sobrepresión interna o la presión incluso 
+negativa de los medios de comunicación que se transportan.
 
 Características:
 •	Resistente a los agentes atmosféricos y a diferentes productos químicos.
@@ -60,7 +71,11 @@ Características:
 
 6.	Sensor de nivel de agua.
 El Sensor de nivel es un dispositivo electrónico que mide la altura del material, generalmente líquido, dentro de un tanque u otro recipiente.
-Integral para el control de procesos en muchas industrias, los sensores de nivel se dividen en dos tipos principales. Los sensores de nivel de punto se utilizan para marcar una altura de un líquido en un determinado nivel prestablecido. Generalmente, este tipo de sensor funciona como alarma, indicando un sobre llenado cuando el nivel determinado ha sido adquirido, o al contrario una alarma de nivel bajo. Los sensores de nivel continuos son más sofisticados y pueden realizar el seguimiento del nivel de todo un sistema. Estos miden el nivel del fluido dentro de un rango especificado, en lugar de en un único punto, produciendo una salida analógica que se correlaciona directamente con el nivel en el recipiente. Para crear un sistema de gestión de nivel, la señal de salida está vinculada a un bucle de control de proceso y a un indicador visual.
+Integral para el control de procesos en muchas industrias, los sensores de nivel se dividen en dos tipos principales. Los sensores de nivel de punto se utilizan para marcar
+una altura de un líquido en un determinado nivel prestablecido. Generalmente, este tipo de sensor funciona como alarma, indicando un sobre llenado cuando el nivel determinado
+ha sido adquirido, o al contrario una alarma de nivel bajo. Los sensores de nivel continuos son más sofisticados y pueden realizar el seguimiento del nivel de todo un sistema. 
+Estos miden el nivel del fluido dentro de un rango especificado, en lugar de en un único punto, produciendo una salida analógica que se correlaciona directamente con el nivel 
+en el recipiente. Para crear un sistema de gestión de nivel, la señal de salida está vinculada a un bucle de control de proceso y a un indicador visual.
  
 Características:
 •	Voltaje de Operación: 3.3 a 5.5 V
@@ -68,7 +83,8 @@ Características:
 
 
 7.Sensor ultrasónico(sensor de distancia)
-Como su nombre lo indica, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción.
+Como su nombre lo indica, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada
+que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción.
 
 Características:
 
@@ -82,8 +98,10 @@ La detección no se ve afectada por la acumulación de polvo o suciedad.
 La detección de presencia es estable, incluso para objetos tales como bandejas de malla o resortes.
 
 8.	Cables jumper macho-hembra
-Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
-La función del cable macho-hembra es con frecuencia usado en el tablero protoboard haciendo posible la conexión de dos elementos, uno ingresado en dicho tablero y el extremo opuesto al sensor (normalmente).
+Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para 
+transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
+La función del cable macho-hembra es con frecuencia usado en el tablero protoboard haciendo posible la conexión de dos elementos, uno ingresado en dicho tablero y el extremo 
+opuesto al sensor (normalmente).
 Se conoce como macho-hembra debido al fragmento que sobresale de un extremo del cable y la superficie creada para el ingreso de un pin.
 
 Características:
@@ -95,7 +113,8 @@ Características:
 
 
 9.	Cables jumper macho-macho
-Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
+Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para
+transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
 La función del cable macho-macho es con frecuencia usado en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dicho tablero.
 Se conoce como macho-macho debido al fragmento que sobresale de los extremos del cable.
 
@@ -108,11 +127,16 @@ Características:
 
 
 10.	Abrazadera para manguera
-Una abrazadera de manguera se utiliza para apretar las mangueras y también se utiliza en las líneas de gas, aire comprimido o hidráulicas. La elección de la abrazadera de manguera metálica adecuada para la aplicación correcta depende de parámetros tales como la presión que puede ejercer, el medio en el que se utiliza o el tipo de acero que está hecho. 
+Una abrazadera de manguera se utiliza para apretar las mangueras y también se utiliza en las líneas de gas, aire comprimido o hidráulicas. La elección de la abrazadera
+de manguera metálica adecuada para la aplicación correcta depende de parámetros tales como la presión que puede ejercer, el medio en el que se utiliza o el tipo de acero
+que está hecho. 
 
 
 11.	led
-Un diodo emisor de luz (también conocido por la sigla LED, del inglés light-emitting diode) es una fuente de luz constituida por un material semiconductor dotado de dos terminales. Se trata de un diodo de unión p-n, que emite luz cuando está activado.  Si se aplica una tensión adecuada a los terminales, los electrones se recombinan con los huecos en la región de la unión p-n del dispositivo, liberando energía en forma de fotones. Este efecto se denomina electroluminiscencia, y el color de la luz generada (que depende de la energía de los fotones emitidos) viene determinado por la anchura de la banda prohibida del semiconductor. Los ledes son normalmente pequeños (menos de 1 mm²) y se les asocian algunos componentes ópticos para configurar un patrón de radiación.
+Un diodo emisor de luz (también conocido por la sigla LED, del inglés light-emitting diode) es una fuente de luz constituida por un material semiconductor dotado de dos
+terminales. Se trata de un diodo de unión p-n, que emite luz cuando está activado.  Si se aplica una tensión adecuada a los terminales, los electrones se recombinan con
+los huecos en la región de la unión p-n del dispositivo, liberando energía en forma de fotones. Este efecto se denomina electroluminiscencia, y el color de la luz generada 
+(que depende de la energía de los fotones emitidos) viene determinado por la anchura de la banda prohibida del semiconductor. Los ledes son normalmente pequeños (menos de 1 mm²) y se les asocian algunos componentes ópticos para configurar un patrón de radiación.
 
 Características:
 •	potente
@@ -123,7 +147,8 @@ Características:
 
 12.	Resistencia 1kΩ
 La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico.
-La resistencia se mide en ohmios, que se simbolizan con la letra griega omega (Ω). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió la relación entre voltaje, corriente y resistencia. Se le atribuye la formulación de la ley de Ohm.
+La resistencia se mide en ohmios, que se simbolizan con la letra griega omega (Ω). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió
+la relación entre voltaje, corriente y resistencia. Se le atribuye la formulación de la ley de Ohm.
 
 Características:
 •	Valor nominal: Es el valor en Ohms que posee. Este valor puede venir impreso o en código de colores.
@@ -131,7 +156,8 @@ Características:
 
 
 13.	Cargador 12v, 2A
-Un cargador de baterías, o simplemente cargador, es un dispositivo utilizado para suministrar una corriente eléctrica, en sentido opuesto al de la corriente de descarga, a una batería o pila recargable para que esta recupere su carga energética.
+Un cargador de baterías, o simplemente cargador, es un dispositivo utilizado para suministrar una corriente eléctrica, en sentido opuesto al de la corriente de descarga, 
+a una batería o pila recargable para que esta recupere su carga energética.
 
 
 
