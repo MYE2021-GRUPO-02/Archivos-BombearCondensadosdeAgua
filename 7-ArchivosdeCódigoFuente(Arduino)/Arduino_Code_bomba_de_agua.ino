@@ -87,7 +87,7 @@ void loop() {
                   
                   //ENCENDIDO DEL RELAY
                  digitalWrite(PINR1,LOW);
-                  delay(3000); 
+                  delay(5000); 
     }
     else{
                 //Serial.print("//");
