@@ -1,11 +1,15 @@
 Materiales utilizados
 
 Relay de 8 entradas.
-Bomba de agua de 12 VDC.
+Bomba de agua de 12V DC.
 Arduino UNO
 Protoboard
 Manguera de plástico.
 Sensor de nivel de agua.
 Sensor de distancia(sensor ultrasónico).
-Cables de puente
+Cables jumper hembra-macho
+Cables jumper macho-macho
+Abrazadera para manguera
+Led
+Resistencia 1KOhm
 Fuente de alimentacion DC12v,2A.
