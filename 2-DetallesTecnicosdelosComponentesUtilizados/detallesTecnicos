@@ -67,18 +67,19 @@ Características:
 •	Corriente de Operación: Menor a 20 mA
 7.	Sensor de distancia.
 
-8.	Aumentador de 3.7 a 35V.
-Este es un módulo que permite elevar el voltaje con el que se puede hacer una gran variedad de cosas.
-A diferencia de los tradicionales reguladores lineales como el LM317 o el 7805, esta fuente de alimentación de corriente directa puede proveer hasta 3 amperes a tus circuitos de manera muy eficiente y por lo tanto emitiendo una menor cantidad de calor.
-Este módulo es un regulador elevador de voltaje de alto rendimiento de conmutación (BOOST). El módulo utiliza la segunda generación de la tecnología de conmutación de alta frecuencia XL6009E1 de núcleo en lugar de los chips de primera tecnología de generación de LM2577. El módulo XL6009 tiene un rendimiento superior al módulo LM2577.
+8.	Sensor ultrasónico(sensor de distancia)
+Como su nombre lo indica, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción.
 
 Características:
-•	Voltaje de salida ajustable con trimpot
-•	Polaridad marcada en con símbolos + y -
-•	Salida marcada con "OUT"
-•	Entrada marcada con "IN"
-•	Para conectar debe ser soldada en las pistas de cobre estañadas con un orificio para atornillar
-•	Aplicaciones: Industriales, energía y de regulación
+
+•Objeto transparente detectable
+Dado que las ondas ultrasónicas pueden reflejarse en una superficie de vidrio o líquido, y retornar al cabezal, incluso los objetos transparentes pueden ser detectados.
+
+•Resistente a niebla y suciedad
+La detección no se ve afectada por la acumulación de polvo o suciedad.
+
+•Objetos de forma compleja detectables
+La detección de presencia es estable, incluso para objetos tales como bandejas de malla o resortes.
 
 9.	Cables de puente
 Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
