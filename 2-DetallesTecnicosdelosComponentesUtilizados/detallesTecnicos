@@ -65,9 +65,9 @@ Integral para el control de procesos en muchas industrias, los sensores de nivel
 Características:
 •	Voltaje de Operación: 3.3 a 5.5 V
 •	Corriente de Operación: Menor a 20 mA
-7.	Sensor de distancia.
 
-8.Sensor ultrasónico(sensor de distancia)
+
+7.Sensor ultrasónico(sensor de distancia)
 Como su nombre lo indica, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción.
 
 Características:
@@ -81,13 +81,59 @@ La detección no se ve afectada por la acumulación de polvo o suciedad.
 •Objetos de forma compleja detectables
 La detección de presencia es estable, incluso para objetos tales como bandejas de malla o resortes.
 
-9.	Cables de puente
+8.	Cables jumper macho-hembra
 Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
+La función del cable macho-hembra es con frecuencia usado en el tablero protoboard haciendo posible la conexión de dos elementos, uno ingresado en dicho tablero y el extremo opuesto al sensor (normalmente).
+Se conoce como macho-hembra debido al fragmento que sobresale de un extremo del cable y la superficie creada para el ingreso de un pin.
 
 Características:
 •	Cable plano ó ribbon aislado multicolor
-•	Longitud: 20 cm aprox.
 •	Material conductor: Cobre
 •	Calibre: AWG 28
 •	Espaciamiento estándar de los terminales: 2.54 mm (0.1")
-•	Ponchado con terminales en 3 combinaciones de género: macho-macho, hembra-macho y hembra-hembra.
+•	Conector Dupont Macho-Hembra.
+
+
+9.	Cables jumper macho-macho
+Es un cable con un conector en cada punta, que se usa normalmente para interconectar entre sí los componentes en una placa de pruebas. Se utilizan de forma general para transferir señales eléctricas de cualquier parte de la placa de prototipos a los pines de entrada/salida de un microcontrolador. 
+La función del cable macho-macho es con frecuencia usado en el tablero protoboard haciendo posible la conexión de dos elementos ingresados en dicho tablero.
+Se conoce como macho-macho debido al fragmento que sobresale de los extremos del cable.
+
+Características:
+•	Cable plano ó ribbon aislado multicolor
+•	Material conductor: Cobre
+•	Calibre: AWG 28
+•	Espaciamiento estándar de los terminales: 2.54 mm (0.1")
+•	Conector Dupont Macho-Hembra.
+
+
+10.	Abrazadera para manguera
+Una abrazadera de manguera se utiliza para apretar las mangueras y también se utiliza en las líneas de gas, aire comprimido o hidráulicas. La elección de la abrazadera de manguera metálica adecuada para la aplicación correcta depende de parámetros tales como la presión que puede ejercer, el medio en el que se utiliza o el tipo de acero que está hecho. 
+
+
+11.	led
+Un diodo emisor de luz (también conocido por la sigla LED, del inglés light-emitting diode) es una fuente de luz constituida por un material semiconductor dotado de dos terminales. Se trata de un diodo de unión p-n, que emite luz cuando está activado.  Si se aplica una tensión adecuada a los terminales, los electrones se recombinan con los huecos en la región de la unión p-n del dispositivo, liberando energía en forma de fotones. Este efecto se denomina electroluminiscencia, y el color de la luz generada (que depende de la energía de los fotones emitidos) viene determinado por la anchura de la banda prohibida del semiconductor. Los ledes son normalmente pequeños (menos de 1 mm²) y se les asocian algunos componentes ópticos para configurar un patrón de radiación.
+
+Características:
+•	potente
+•	resistente
+•	eficiente
+•	ecológico
+
+
+12.	Resistencia 1kΩ
+La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico.
+La resistencia se mide en ohmios, que se simbolizan con la letra griega omega (Ω). Se denominaron ohmios en honor a Georg Simon Ohm (1784-1854), un físico alemán que estudió la relación entre voltaje, corriente y resistencia. Se le atribuye la formulación de la ley de Ohm.
+
+Características:
+•	Valor nominal: Es el valor en Ohms que posee. Este valor puede venir impreso o en código de colores.
+•	Tolerancia: Es el error máximo con el que se fabrica la tolerancia.
+
+
+13.	Cargador 12v, 2A
+Un cargador de baterías, o simplemente cargador, es un dispositivo utilizado para suministrar una corriente eléctrica, en sentido opuesto al de la corriente de descarga, a una batería o pila recargable para que esta recupere su carga energética.
+
+
+
+
+
