@@ -67,7 +67,7 @@ Características:
 •	Corriente de Operación: Menor a 20 mA
 7.	Sensor de distancia.
 
-8.	Sensor ultrasónico(sensor de distancia)
+8.Sensor ultrasónico(sensor de distancia)
 Como su nombre lo indica, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. El cabezal emite una onda ultrasónica y recibe la onda reflejada que retorna desde el objeto. Los sensores ultrasónicos miden la distancia al objeto contando el tiempo entre la emisión y la recepción.
 
 Características:
