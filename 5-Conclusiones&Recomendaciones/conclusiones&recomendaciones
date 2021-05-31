@@ -1,5 +1,7 @@
+Conclusiones:
+La utilización de la PCB Arduino facilita enormemente la gestión de tareas repetitivas, es por ello que, bombear los condesados de un aire acondionado haciendo uso de una bomba de 12V y utilizando sensores de distancia y nivel de agua, para realizar automaticamente el proceso de vaciado de un tanque a otro. Este proyecto viene a bien para hogares y pequeñas empresas que hagan uso de aires acondionados y no quieran verse en la molestia de retirar estos residuos manualmente.
 
-La idea inicial de desarrollar el proyecto “Bombear los condensados de agua del aire acondicionado” que cumpla con los requerimientos planteados se ha llevado a cabo 
-de manera satisfactoria.
-El proyecto diseñado es capaz de cumplir con lo que se solicitaba.
-
+Recomendaciones:
+1. La bomba de 12V utilizado solo funciona a un máximo de 3 m de altura y a 240 L/h.
+2. No utilizar por tiempo prolongados ya que puede causar sobrecalentamiento de la PCB.
+3. Este proyecto no incluye protección contra sapilcaduras (La bomba si es sumergible con certificacion IP68).
